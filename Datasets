@@ -1,0 +1,62 @@
+Data and Resources Used
+Datasets / Earth-observation sources
+Copernicus Sentinel-2 L2A — 10 m multispectral imagery
+https://dataspace.copernicus.eu/
+Copernicus Data Space Ecosystem STAC Catalogue API
+https://stac.dataspace.copernicus.eu/v1/
+Landsat 8/9 Collection 2 Level-2 — 30 m imagery
+https://www.usgs.gov/landsat-missions/landsat-collection-2
+Google Earth Engine Data Catalog
+https://developers.google.com/earth-engine/datasets/catalog
+JRC Global Surface Water
+https://global-surface-water.appspot.com/
+Google Dynamic World V1
+https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1
+Google Open Buildings V3
+https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_OPENBUILDINGS_V3
+The dashboard specifically records 399 Sentinel-2 scenes retrieved and 385 retained after the pixel-count criteria, with the analysis period shown as 2015-12-07 to 2026-06-27. The core imagery is documented as Sentinel-2 L2A and Landsat 8/9 C2 L2.
+Weather / environmental inputs referenced
+NASA GPM IMERG — precipitation / rainfall
+https://gpm.nasa.gov/data-access/downloads/gpm
+NASA ECOSTRESS
+https://ecostress.jpl.nasa.gov/
+NASA SMAP
+https://smap.jpl.nasa.gov/
+NASA–ISRO NISAR
+https://nisar.jpl.nasa.gov/
+Global / regional DEM data — GLO-30
+https://dataspace.copernicus.eu/
+The dashboard explicitly labels its rainfall indicator as GPM IMERG and references Sentinel-1/2/3/5P, GLO-30, ECOSTRESS, SMAP and NISAR among the Earth-observation resources.
+Government / public water-quality references
+Maharashtra Pollution Control Board (MPCB) — Water Quality Monitoring, Godavari at Nashik, 2023
+https://mpcb.gov.in/
+Central Pollution Control Board (CPCB) — Primary Water Quality Criteria, Class B
+https://cpcb.nic.in/
+CPCB — Polluted River Stretches / Priority Classification
+https://cpcb.nic.in/
+Central Water Commission (CWC) — Godavari basin / discharge information
+https://cwc.gov.in/
+National Green Tribunal (NGT) — Godavari pollution matter
+https://greentribunal.gov.in/
+Comptroller and Auditor General of India (CAG) — urban water and sanitation audit
+https://cag.gov.in/
+These sources are explicitly listed by the dashboard as references behind its analysis and reporting layer.
+Methodology / international source
+UNEP — SDG 6.3.2 methodology
+https://unstats.un.org/sdgs/metadata/
+The dashboard explicitly lists UNEP — SDG 6.3.2 Level 2 methodology among its sources.
+Software libraries / open-source components
+Leaflet 1.9.4 — interactive maps
+https://leafletjs.com/
+Three.js r128 — 3D globe / visualisation
+https://threejs.org/
+satellite.js 5.0.0 — orbital propagation
+https://github.com/shashwatak/satellite-js
+SheetJS / xlsx 0.18.5 — spreadsheet export
+https://github.com/SheetJS/sheetjs
+jsPDF 2.5.1 — PDF/report export
+https://github.com/parallax/jsPDF
+These libraries are directly loaded by the HTML through CDN URLs.
+Live API used by the dashboard
+Copernicus Data Space Sentinel-2 STAC Search API
+https://stac.dataspace.copernicus.eu/v1/search
